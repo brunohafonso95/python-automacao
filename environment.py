@@ -10,7 +10,6 @@ from pages.taskit_perfil_page import taskit_perfil_page
 def before_all(context):
 	pass
 	
-    
 def before_feature(context,feature):
 	pass
 

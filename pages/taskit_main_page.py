@@ -6,8 +6,7 @@ class taskit_main_page():
         self.driver = driver
     
     def clicar_botao_login_menu(self):
-        self.driver.clica("Sign in", "link")
-        
+        self.driver.clica("Sign in", "link")        
         
     def clicar_botao_login_modal(self):
         self.driver.clica("SIGN IN", "link")

@@ -1,9 +1,10 @@
+@Remover_dado
 Feature: remover dados de contato
 
    Feature Description: removendo um dado de contato no perfil
 	
 	Background:
-		Given acesso a pagina de perfil da aplicacao
+		Given acesso a pagina de contatos da aplicacao
 		
 	Scenario: remover email
 		When clico no icone para excluir o email desejado
