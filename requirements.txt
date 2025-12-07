@@ -2,3 +2,5 @@ pyautomators==1.5.1
 python-docx
 behave
 xlib
+django>=4.2.27 # not directly required, pinned by Snyk to avoid a vulnerability
+sqlparse>=0.5.4 # not directly required, pinned by Snyk to avoid a vulnerability
